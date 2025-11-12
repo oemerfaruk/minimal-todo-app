@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Prizma", // <-- Uygulama adını buradan değiştirin
+    "slug": "prizma-todo", // <-- Benzersiz projenizin adı
+    "version": "1.0.0",
+    "orientation": "portrait",
+    
+    // --- İKON AYARLARI BURADA ---
+    "icon": "./assets/icon.png", // Ana ikon (iOS ve eski Android)
+    
+    // --- AÇILIŞ EKRANI AYARLARI ---
+    "splash": {
+      "image": "./assets/splash.png", // Açılış ekranı görseli
+      "resizeMode": "contain", // "cover" veya "contain" olabilir
+      "backgroundColor": "#ffffff" // Görsel yüklenemezse görünecek renk
+    },
+    
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      // --- ANDROID ADAPTİF İKON AYARLARI ---
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png", // Sadece logo
+        "backgroundColor": "#FFFFFF" // Arka plan rengi (veya "backgroundImage" kullanın)
+      },
+      // Paketi yeniden adlandırmak için
+      "package": "com.sirketiniz.prizma" 
+    },
+    "web": {
+      "favicon": "./assets/favicon.png" // Web için favicon (opsiyonel)
+    }
+  }
+}
